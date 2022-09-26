@@ -6,6 +6,8 @@ Envie os prints dos dados armazenados e o link do github com arquivos html, pyth
 
 # criar o banco
 
+docker image build -t python-web .
+
 docker ps (Precisar pegar o ID do container)
 
 docker exec -it (ID do container) /bin/bash
@@ -14,7 +16,7 @@ mysql -uroot -p
 
 digitar a senha do banco de dados = admin;
 
-create schema nome do banco de dados = teste;
+create schema teste;
 
 use teste;
 
